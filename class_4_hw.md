@@ -1,6 +1,6 @@
 1.
 
-Each row describes an item that Chipotle offers while each column describes an aspect of the item. ::
+Each row describes an item that Chipotle offers while each column describes an aspect of the item.
 
     MONOLITH@MONOLITH-PC MINGW64 ~/Desktop/GA DATA SCI/GA-SEA-DAT2/data (master)
     $ head chipotle.tsv
