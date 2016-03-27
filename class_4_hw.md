@@ -58,6 +58,15 @@ Chicken.
 
 5) Do chicken burritos more often have black beans or pinto beans?
 
+More often black beans.
+
+    MONOLITH@MONOLITH-PC MINGW64 ~/Desktop/GA DATA SCI/GA-SEA-DAT2/data (master)
+    $ grep -i 'chicken.*black' chipotle.tsv | wc -l
+    759
+    
+    MONOLITH@MONOLITH-PC MINGW64 ~/Desktop/GA DATA SCI/GA-SEA-DAT2/data (master)
+    $ grep -i 'chicken.*pinto' chipotle.tsv | wc -l
+    265
 
 
 6) Make a list of all of the CSV or TSV files in the GA-SEA-DAT1 repo (using a single command). 
