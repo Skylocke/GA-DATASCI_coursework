@@ -1,3 +1,4 @@
+1. Each row describes an item that Chipotle offers while each column describes an aspect of the item.
 Solution code to 1::
     MONOLITH@MONOLITH-PC MINGW64 ~/Desktop/GA DATA SCI/GA-SEA-DAT2 (master)
     $ cd data/
@@ -28,8 +29,7 @@ Solution code to 1::
     1834    1       Chicken Salad Bowl      [Fresh Tomato Salsa, [Fajita Vegetables, Lettuce]]      $8.75
     1834    1       Chicken Salad Bowl      [Fresh Tomato Salsa, [Fajita Vegetables, Pinto Beans, Lettuce]] $8.75
     
-    MONOLITH@MONOLITH-PC MINGW64 ~/Desktop/GA DATA SCI/GA-SEA-DAT2/data (master)
-    $
+
 
 
 
