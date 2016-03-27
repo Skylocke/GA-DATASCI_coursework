@@ -1,6 +1,6 @@
 1. What do you think each column means? What do you think each row means?
 
-Each row is an order made at Chipotle. Each column describes an aspect of the item, with choice_description listing the different ingredients the customer requested in the respective order.
+Each row is an item of an order made at Chipotle, sometimes with multiple items belonging to the same order (hence the repeating order_ids). Each column describes an aspect of the item, with choice_description listing the different ingredients the customer requested in the respective order.
 
     MONOLITH@MONOLITH-PC MINGW64 ~/Desktop/GA DATA SCI/GA-SEA-DAT2/data (master)
     $ head chipotle.tsv
@@ -31,10 +31,17 @@ Each row is an order made at Chipotle. Each column describes an aspect of the it
 
 2. How many orders do there appear to be?
  
+1834.
 
 
 3. How many lines are in this file?
 
+4623.
+
+
+    MONOLITH@MONOLITH-PC MINGW64 ~/Desktop/GA DATA SCI/GA-SEA-DAT2/data (master)
+    $ wc -l chipotle.tsv
+    4623 chipotle.tsv
 
 
 4. Which burrito is more popular, steak or chicken?
