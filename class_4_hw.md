@@ -45,6 +45,15 @@ Each row is an item of an order made at Chipotle, sometimes with multiple items 
 
 4) Which burrito is more popular, steak or chicken?
 
+Chicken.
+
+    MONOLITH@MONOLITH-PC MINGW64 ~/Desktop/GA DATA SCI/GA-SEA-DAT2/data (master)
+    $ grep -i steak chipotle.tsv | wc -l
+    706
+    
+    MONOLITH@MONOLITH-PC MINGW64 ~/Desktop/GA DATA SCI/GA-SEA-DAT2/data (master)
+    $ grep -i chicken chipotle.tsv | wc -l
+    1565
 
 
 5) Do chicken burritos more often have black beans or pinto beans?
