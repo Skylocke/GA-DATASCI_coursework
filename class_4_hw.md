@@ -1,6 +1,6 @@
-1.
+1. What do you think each column means? What do you think each row means?
 
-Each row describes an item that Chipotle offers while each column describes an aspect of the item.
+Each row is an order made at Chipotle. Each column describes an aspect of the item, with choice_description listing the different ingredients the customer requested in the respective order.
 
     MONOLITH@MONOLITH-PC MINGW64 ~/Desktop/GA DATA SCI/GA-SEA-DAT2/data (master)
     $ head chipotle.tsv
@@ -29,7 +29,19 @@ Each row describes an item that Chipotle offers while each column describes an a
     1834    1       Chicken Salad Bowl      [Fresh Tomato Salsa, [Fajita Vegetables, Pinto Beans, Lettuce]] $8.75
     
 
+2. How many orders do there appear to be?
+ 
 
+
+3. How many lines are in this file?
+
+
+
+4. Which burrito is more popular, steak or chicken?
+
+
+
+5. Do chicken burritos more often have black beans or pinto beans?
 
 
 
