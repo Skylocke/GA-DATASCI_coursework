@@ -38,7 +38,6 @@ Each row is an item of an order made at Chipotle, sometimes with multiple items 
 
 4623.
 
-
     MONOLITH@MONOLITH-PC MINGW64 ~/Desktop/GA DATA SCI/GA-SEA-DAT2/data (master)
     $ wc -l chipotle.tsv
     4623 chipotle.tsv
