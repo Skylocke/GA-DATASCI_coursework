@@ -1,4 +1,4 @@
-1. What do you think each column means? What do you think each row means?
+1) What do you think each column means? What do you think each row means?
 
 Each row is an item of an order made at Chipotle, sometimes with multiple items belonging to the same order (hence the repeating order_ids). Each column describes an aspect of the item, with choice_description listing the different ingredients the customer requested in the respective order.
 
@@ -29,12 +29,12 @@ Each row is an item of an order made at Chipotle, sometimes with multiple items 
     1834    1       Chicken Salad Bowl      [Fresh Tomato Salsa, [Fajita Vegetables, Pinto Beans, Lettuce]] $8.75
     
 
-2. How many orders do there appear to be?
+2) How many orders do there appear to be?
  
 1834.
 
 
-3. How many lines are in this file?
+3) How many lines are in this file?
 
 4623.
 
@@ -44,11 +44,11 @@ Each row is an item of an order made at Chipotle, sometimes with multiple items 
     4623 chipotle.tsv
 
 
-4. Which burrito is more popular, steak or chicken?
+4) Which burrito is more popular, steak or chicken?
 
 
 
-5. Do chicken burritos more often have black beans or pinto beans?
+5) Do chicken burritos more often have black beans or pinto beans?
 
 
 
