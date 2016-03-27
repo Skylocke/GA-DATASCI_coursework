@@ -2,9 +2,7 @@
 
 
 Solution code to 1::
-    MONOLITH@MONOLITH-PC MINGW64 ~/Desktop/GA DATA SCI/GA-SEA-DAT2 (master)
-    $ cd data/
-     
+
     MONOLITH@MONOLITH-PC MINGW64 ~/Desktop/GA DATA SCI/GA-SEA-DAT2/data (master)
     $ head chipotle.tsv
     order_id        quantity        item_name       choice_description      item_price
