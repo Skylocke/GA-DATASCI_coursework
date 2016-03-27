@@ -1,5 +1,6 @@
 1. Each row describes an item that Chipotle offers while each column describes an aspect of the item.
 
+
 Solution code to 1::
     MONOLITH@MONOLITH-PC MINGW64 ~/Desktop/GA DATA SCI/GA-SEA-DAT2 (master)
     $ cd data/
