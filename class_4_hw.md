@@ -105,3 +105,12 @@ More often black beans.
 
 Optional) Use the the command line to discover something "interesting" about the Chipotle data. Try using the commands from the "advanced" section!
 
+Chips and Guacamole (as a singular item) are about as popular as vegetarian entrees.
+
+    Rachel@Elphaba MINGW64 ~/desktop/GA Data Science/GA-SEA-DAT2/data (master)
+    $ grep -i 'chips and guacamole' chipotle.tsv | wc -l
+    479
+    
+    Rachel@Elphaba MINGW64 ~/desktop/GA Data Science/GA-SEA-DAT2/data (master)
+    $ grep -i 'veggie' chipotle.tsv | wc -l
+    477
