@@ -71,11 +71,37 @@ More often black beans.
 
 6) Make a list of all of the CSV or TSV files in the GA-SEA-DAT1 repo (using a single command). 
 
+    Rachel@Elphaba MINGW64 ~/desktop/GA Data Science
+    $ find GA-SEA-DAT2/ -name *.tsv | find GA-SEA-DAT2/ -name *.csv
+    GA-SEA-DAT2/data/airlines.csv
+    GA-SEA-DAT2/data/Airline_on_time_west_coast.csv
+    GA-SEA-DAT2/data/bank-additional.csv
+    GA-SEA-DAT2/data/bikeshare.csv
+    GA-SEA-DAT2/data/citibike_feb2014.csv
+    GA-SEA-DAT2/data/drinks.csv
+    GA-SEA-DAT2/data/drones.csv
+    GA-SEA-DAT2/data/hitters.csv
+    GA-SEA-DAT2/data/icecream.csv
+    GA-SEA-DAT2/data/imdb_1000.csv
+    GA-SEA-DAT2/data/mtcars.csv
+    GA-SEA-DAT2/data/NBA_players_2015.csv
+    GA-SEA-DAT2/data/ozone.csv
+    GA-SEA-DAT2/data/pronto_cycle_share/2015_station_data.csv
+    GA-SEA-DAT2/data/pronto_cycle_share/2015_trip_data.csv
+    GA-SEA-DAT2/data/pronto_cycle_share/2015_weather_data.csv
+    GA-SEA-DAT2/data/syria.csv
+    GA-SEA-DAT2/data/titanic.csv
+    GA-SEA-DAT2/data/ufo.csv
+    GA-SEA-DAT2/data/vehicles_test.csv
+    GA-SEA-DAT2/data/vehicles_train.csv
+    GA-SEA-DAT2/data/yelp.csv
 
 
 7) Count the approximate number of occurrences of the word "dictionary" (regardless of case) across all files in the GA-SEA-DAT1 repo.
 
-
+    Rachel@Elphaba MINGW64 ~/desktop/GA Data Science/GA-SEA-DAT2 (master)
+    $ grep -ri 'dictionary' | wc -w
+    1227
 
 Optional) Use the the command line to discover something "interesting" about the Chipotle data. Try using the commands from the "advanced" section!
 
