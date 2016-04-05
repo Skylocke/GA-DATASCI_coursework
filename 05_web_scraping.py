@@ -113,7 +113,7 @@ Scraping the IMDb website
 import requests
 
 r = requests.get('http://www.imdb.com/title/tt0111161/')
-#r = requests.get('http://www.imdb.com/title/tt0133093/') # The Matrix
+r = requests.get('http://www.imdb.com/title/tt0133093/') # The Matrix
 
 # convert HTML into Soup
 b = BeautifulSoup(r.text)
@@ -152,8 +152,11 @@ b.find(name='div', attrs={'class':'inline canwrap', 'itemprop':'description'}).t
 b.find(name='span', attrs={'itemprop':'contentRating'}).text
 
 # get the duration in minutes (as an integer)
-b.find_all(name='time')
-
+# assuming each movie entry has two time formats, one in hours+minutes and the other in minutes
+minutes_string = str(b.find_all(name='time')[-1].text)
+def only_numerics(seq):
+    return filter(type(seq).isdigit, seq)
+int(only_numerics(minutes_string))
 
 '''
 OPTIONAL WEB SCRAPING HOMEWORK
