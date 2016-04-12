@@ -3,5 +3,5 @@ Determine an association between the [data](https://www.kaggle.com/c/santander-c
 Deadline: May 2nd.
 
 Resources:
-https://www.kaggle.com/c/santander-customer-satisfaction/forums/t/19291/data-dictionary
-(data provided is anonymized and originally in Spanish.)
+- Data provided is anonymized and originally in Spanish. Translations and other stuff can be found [here](https://www.kaggle.com/c/santander-customer-satisfaction/forums/t/19291/data-dictionary)
+- [Python code for similar variable grouping](https://www.kaggle.com/walterhan/santander-customer-satisfaction/similar-variable-groupings)
