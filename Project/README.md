@@ -7,6 +7,28 @@ Resources:
 - [Python code for similar variable grouping](https://www.kaggle.com/walterhan/santander-customer-satisfaction/similar-variable-groupings)
 
 Notes on the variables gleaned from the forums (because no data dictionary or any code book was provided!):
+- On the topic of translation:
+  - https://www.kaggle.com/c/santander-customer-satisfaction/forums/t/19291/data-dictionary/110209#post110209
+  - imp_ent_varX => importe entidad => amount for the bank office
+  - imp_op_varX_comer => importe opcion comercial => amount for commercial option
+  - imp_sal_varX => importe salario => amount for wage
+  - ind_varX_corto => indicador corto => short (time lapse?) indicator/dummy
+  - ind_varX_medio => indicador medio => medium-sized (time lapse?) indicator/dummy
+  - ind_varX_largo => indicador largo => long-sized (time lapse?) indicator/dummy
+  - sald_varX => saldo => balance
+  - delta_imp_amort_varX_1y3 => importe amortización 1 y 3 => amount/price for redemption (?) 1 and 3
+  - delta_imp_aport_varX_1y3 => importe aportación 1 y 3 => amount/price for contribution (?) 1 and 3
+  - delta_imp_reemb_varX_1y3 => importe reembolso 1 y 3 => amount/price for refund 1 and 3
+  - delta_imp_trasp_varX_out_1y3 => importe traspaso 1 y 3 => amount/price for transfer 1 and 3
+  - imp_venta_varX => importe venta => sale fee.
+  - ind_varX_emit_ult1 => indicador emitido => indicator of emission
+  - ind_varX_recib_ult1 => indicador recibido => indicator of reception
+  - num_varX_hace2 => número hace 2 => number [of variable X ] done two units in the past
+  - num_med_varX => número medio => mean number [of variable X]
+  - num_meses_varX => número de meses => number of months [for variable X]
+  - saldo_medio_varX => saldo medio => average balance
+  - delta_imp_venta_varX_1y3 = > importe de venta 1 y 3 => fee on sales [for variable X] 1 and 3
+  - As you see, some make sense and some not. Most variables end with "_ultX", which does not make much sense to me (from "últimaX" -- "lastX"?).
 - 'Indicator' variables seem to come in pairs often (not all the time).
   - https://www.kaggle.com/c/santander-customer-satisfaction/forums/t/19291/data-dictionary/110586#post110586
   - "my hypothesis has been that ind_XXX indicates whether a person has chosen this banking product (and 0 therefore means that he has not chosen it), whereas ind_XXX_0 indicates that the customer has explicitly opted out of the product. Note that when ind_XXX_0 is 1, the rest of the variables in the group are zeros."
