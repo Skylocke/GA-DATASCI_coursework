@@ -7,6 +7,7 @@ Resources:
 - [Python code for similar variable grouping](https://www.kaggle.com/walterhan/santander-customer-satisfaction/similar-variable-groupings)
 
 Notes on the variables gleaned from the forums (because no data dictionary or any code book was provided!):
+- On the topic of variable meaning/significance: https://www.kaggle.com/cast42/santander-customer-satisfaction/exploring-features/discussion
 - On the topic of translation:
   - https://www.kaggle.com/c/santander-customer-satisfaction/forums/t/19291/data-dictionary/110209#post110209
   - imp_ent_varX => importe entidad => amount for the bank office
